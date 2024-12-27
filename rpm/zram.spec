@@ -18,7 +18,7 @@ It's useful in memory constrained devices. This provides a service to setup
 ZRAM as a swap device based on criteria such as available memory.
 
 %prep
-# None required
+%autosetup
 
 %build
 # None required

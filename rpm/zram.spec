@@ -7,7 +7,7 @@ Source0:  %{name}-%{version}.tar.xz
 
 BuildArch: noarch
 
-BuildRequires: systemd
+BuildRequires: pkgconfig(libsystemd)
 Requires: gawk
 Requires: grep
 Requires: util-linux
